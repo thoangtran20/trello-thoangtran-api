@@ -1,0 +1,29 @@
+{
+	"name": "trello-thoangtran-api",
+	"version": "1.0.0",
+	"description": "APIs for trello clone app",
+	"main": "src/server.js",
+	"type": "module",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"eslint": "eslint src"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/thoangtran20/trello-thoangtran-api.git"
+	},
+	"keywords": [],
+	"author": "thoangtran",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/thoangtran20/trello-thoangtran-api/issues"
+	},
+	"homepage": "https://github.com/thoangtran20/trello-thoangtran-api#readme",
+	"dependencies": {
+		"express": "^4.18.1"
+	},
+	"devDependencies": {
+		"babel-eslint": "^10.1.0",
+		"eslint": "^8.17.0"
+	}
+}
