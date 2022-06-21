@@ -1,6 +1,8 @@
 import express from 'express'
 import { HttpStatusCode } from '*/utilities/constants'
 import { boardRoutes } from './board.route'
+import { columnRoutes } from './column.route'
+import { cardRoutes } from './card.route'
 
 const router = express.Router()
 
@@ -11,5 +13,10 @@ router.get('/frontend', (req, res) => console.log('Hello Frontend'))
 /* Board APIs */
 router.use('/boards', boardRoutes)
 
+/* Column APIs */
+router.use('/columns', columnRoutes)
+
+/* Card APIs */
+router.use('/cards', cardRoutes)  
 
 export const apiV1 = router
